@@ -1,4 +1,12 @@
-Action()
+	web_custom_request("web_custom_request",
+		"URL=",
+		"TargetFrame=",
+		"Resource=0",
+		"Referer=",
+		LAST);
+
+
+	Action()
 {
 
 	web_set_sockets_option("SSL_VERSION", "2&3");
