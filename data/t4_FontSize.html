@@ -1,0 +1,50 @@
+﻿
+
+$(".color").click(function () {
+    $("body").css({ "-moz-filter": "grayscale(100%)", "-webkit-filter": "grayscale(100%)", "filter": "gray", "filter": "grayscale(100%)" });
+    $("body").css({ "background-color": "#000" });
+});
+
+
+$(".nocolor").click(function () {
+    $("body").css({ "-moz-filter": "grayscale(0%)", "-webkit-filter": "grayscale(0%)", "filter": "white", "filter": "grayscale(0%)" });
+
+    $("body").css({ "background-color": "#fff" });
+});
+
+
+
+var $affectedElements = $("*");
+$affectedElements.each(function () {
+    var $this = $(this);
+    $this.data("orig-size", $this.css("font-size"));
+});
+
+$("#btn-increase").click(function () {
+
+    $("p, a, li, td, th, span, label,font").css("font-size", "14px");
+
+    $("h1, h2, h3, h4, h5, h6").css("font-size", "25px"); //15
+
+})
+
+$("#btn-decrease").click(function () {
+    $("p, a, li, td, th, span, label,font").css("font-size", "9px");
+
+    $("h1, h2, h3, h4, h5, h6").css("font-size", "12px");
+})
+
+$("#btn-orig").click(function () {
+    $affectedElements.each(function () {
+        var $this = $(this);
+        $this.css("font-size", $this.data("orig-size"));
+    });
+})
+
+function changeFontSize(direction) {
+    $affectedElements.each(function () {
+        var $this = $(this);
+        $this.css("font-size", parseInt($this.css("font-size")) + direction);
+    });
+}
+	

@@ -1,0 +1,391 @@
+[API Trapper      (1d00:2ccc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (3db8:3dd4)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (2f58:28ec)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (2f58:1684)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2f58:1684)] Load Network Traffic Analyzers:
+[Network Analyzer (2f58:1684)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2f58:1684)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2f58:1684)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2f58:1684)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2f58:1684)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2f58:1684)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2f58:1684)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2f58:1684)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2f58:2668)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 172.217.160.131:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2f58:1d6c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 35.186.235.23:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 142.250.67.46:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 54.182.0.4:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 172.217.26.163:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 216.58.196.173:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 103.129.72.53:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (2f58:1350)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 13.227.138.69:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1d6c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 13.227.138.69:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 13.227.138.69:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 172.217.163.42:443   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (2f58:2668)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=85"   
+[Network Analyzer (2f58:2668)]   (Sid:  1) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:1350)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Web Request      (2f58:2668)] "GET /libs/mixpanel-2.2.min.js"   
+[Network Analyzer (2f58:2668)]   (Sid:  2) Client -> Server @ : 369 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 192.168.0.177:8008   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (2f58:2668)] "GET /ssdp/device-desc.xml"   
+[Network Analyzer (2f58:2668)]   (Sid: 12) Client -> Server @ : 249 bytes (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 12) Server -> Client : 1189 bytes  (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (2f58:3254)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (2f58:1a80)] SSL_connect(ssl_id = 2101178564704 = 000001E938008060) Failed, ctx = 000001E9380086A0, err = "error", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:04091068:rsa routines:INT_RSA_VERIFY:bad signature
+error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature
+"
+[Net An. Error    (2f58:1a80)]   (Sid:  4) SSL handshake with remote server Failed!
+[Network Analyzer (2f58:3ce4)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58: eac)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58:2668)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (2f58:13d0)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2f58:3c38)] SSL_connect(ssl_id = 2101178567104 = 000001E9380089C0) Failed, ctx = 000001E938008380, err = "error", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:04091068:rsa routines:INT_RSA_VERIFY:bad signature
+error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature
+"
+[Net An. Error    (2f58:3c38)]   (Sid:  8) SSL handshake with remote server Failed!
+[Net An. Error    (2f58:3a54)] SSL_connect(ssl_id = 2101178568704 = 000001E938009000) Failed, ctx = 000001E938008380, err = "error", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:04091068:rsa routines:INT_RSA_VERIFY:bad signature
+error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature
+"
+[Net An. Error    (2f58:3a54)]   (Sid:  9) SSL handshake with remote server Failed!
+[Net An. Error    (2f58:2138)] SSL_connect(ssl_id = 2101175688736 = 000001E937D49E20) Failed, ctx = 000001E938008380, err = "error", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:04091068:rsa routines:INT_RSA_VERIFY:bad signature
+error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature
+"
+[Net An. Error    (2f58:2138)]   (Sid: 10) SSL handshake with remote server Failed!
+[Network Analyzer (2f58:2668)]   (Sid:  1) Server -> Client : 823 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:34d4)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 35.190.25.25:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 172.217.163.174:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 192.168.0.177:8009   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58: 438)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58:2b44)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58:2668)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 192.168.0.177:8009   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 142.250.67.74:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 54.182.0.4:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (2f58:3254)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:3f50)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58:3ce4)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:13d0)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58: eac)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:34d4)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58: 438)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:2b44)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 172.217.31.195:80   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (2f58:2668)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer (2f58:2668)]   (Sid:  5) Client -> Server @ : 380 bytes (SSL)(Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/Rolls"   
+[Network Analyzer (2f58:2668)]   (Sid:  7) Client -> Server @ : 557 bytes (SSL)(Service=HTTP)
+[Web Request      (2f58:2668)] "GET /generate_204"   
+[Network Analyzer (2f58:2668)]   (Sid: 19) Client -> Server @ : 314 bytes (Service=HTTP)
+[Network Analyzer (2f58:3f50)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2f58:2668)] "GET /decide/?verbose=1&version=1&lib=web&token=94b5c311692e7c9d03cef9c9a7a32eaf&ip=1&_=1601901171373"   
+[Network Analyzer (2f58:2668)]   (Sid: 13) Client -> Server @ : 439 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 16) Client -> Server @ : 96 bytes (SSL)
+[Network Analyzer (2f58: ac8)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  7) Server -> Client : 11857 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 19) Server -> Client : 83 bytes  (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58: ac8)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Net An. Error    (2f58:1e6c)] SSL_connect(ssl_id = 2101175854336 = 000001E937D72500) Failed, ctx = 000001E9380086A0, err = "error", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:04091068:rsa routines:INT_RSA_VERIFY:bad signature
+error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature
+"
+[Net An. Error    (2f58:1e6c)]   (Sid: 18) SSL handshake with remote server Failed!
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "POST /v1/issuetoken"   
+[Network Analyzer (2f58:2668)]   (Sid: 17) Client -> Server @ : 1387 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 416 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 17) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 17) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 17) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 103.129.72.53:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1189 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 16) Server -> Client : 5168 bytes (SSL)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Server -> Client : 55 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 103.129.72.53:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 103.129.72.53:443   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/css/font-awesome.min.css"   
+[Network Analyzer (2f58:2668)]   (Sid:  7) Client -> Server @ : 509 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:2668)]   (Sid:  7) Server -> Client : 5738 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 103.129.72.53:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:2668)]   (Sid: 13) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 13) Server -> Client : 293 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2d40)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2f58:3de4)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2f58: da0)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2f58:18bc)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 103.129.72.53:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (2f58:2d40)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:3de4)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58: da0)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:18bc)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/css/bootstrap.css"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 502 bytes (SSL)(Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/css/common.css"   
+[Network Analyzer (2f58:2668)]   (Sid: 21) Client -> Server @ : 499 bytes (SSL)(Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/js/Header.js"   
+[Network Analyzer (2f58:2668)]   (Sid: 22) Client -> Server @ : 483 bytes (SSL)(Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/js/jquery.min.js"   
+[Network Analyzer (2f58:2668)]   (Sid: 23) Client -> Server @ : 487 bytes (SSL)(Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/WebResource.axd?d=tDFppO7iw2S1xeLoVYjEHi2jR2iy0IpGoMbvlJcRfB63F-XvQlFCxxJKdc59g6FuOK97EbXwXMG-vjS-uYI76vp7UcA1&t=637101059640000000"   
+[Network Analyzer (2f58:2668)]   (Sid:  7) Client -> Server @ : 602 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  7) Server -> Client : 6990 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 21) Server -> Client : 6230 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 22) Server -> Client : 2356 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/WebResource.axd?d=kVpwt2SU_t65aTz45Hs0hDyKDMftt-dZ7eVP2dVk1G1eUPbot7pQeULtn6rdOlp8L5neGR7_2e7IzgdPnwOTLFK9QY01&t=637101059640000000"   
+[Network Analyzer (2f58:2668)]   (Sid:  7) Client -> Server @ : 602 bytes (SSL)(Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/js/FontSize.js"   
+[Network Analyzer (2f58:2668)]   (Sid: 22) Client -> Server @ : 485 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 23) Server -> Client : 14202 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 4650 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/images/logo.png"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 532 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid:  7) Server -> Client : 10878 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 22) Server -> Client : 1709 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58: d04)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (2f58:2668)]   (Sid: 13) Client -> Server @ : 513 bytes (SSL)(Service=HTTP)
+[Web Request      (2f58:2668)] "POST /track/?verbose=1&ip=1&_=1601901196402"   
+[Network Analyzer (2f58:2668)]   (Sid: 13) Client -> Server @ : 981 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58: d04)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 3442 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/fontawesome-webfont.woff2?v=4.3.0"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 563 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 13) Server -> Client : 552 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 385 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 216.58.200.138:443   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58: a50)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58: a50)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2f58:2668)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIUCfZ2m5agw84cEgkNvYWDDxIAGgA=?alt=proto"   
+[Network Analyzer (2f58:2668)]   (Sid: 25) Client -> Server @ : 535 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 25) Server -> Client : 652 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 16) Server -> Client : 92 bytes (SSL)
+[Network Analyzer (2f58:2668)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/404.aspx"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 538 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 381 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/fonts/fontawesome-webfont.woff?v=4.3.0"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 226 bytes (SSL) (Service=HTTP)
+[Web Request      (2f58:2668)] "GET /AP_Eroll_2020/favicon.png"   
+[Network Analyzer (2f58:2668)]   (Sid: 20) Client -> Server @ : 528 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Server -> Client : 4906 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 54.182.0.4:443   (Service=)  (Sid= 26)  PROXIED!
+[API Trapper      (2eb4:30a4)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 54.182.0.4:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 54.182.0.4:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (2f58:2668)]   (Sid: 19) Connection Terminated (by Client)
+[Net An. Error    (2f58:2f40)] SSL_connect(ssl_id = 2101180947536 = 000001E93824DC50) Failed, ctx = 000001E9380086A0, err = "error", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:04091068:rsa routines:INT_RSA_VERIFY:bad signature
+error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature
+"
+[Net An. Error    (2f58:2f40)]   (Sid: 26) SSL handshake with remote server Failed!
+[Net An. Error    (2f58:1c74)] SSL_connect(ssl_id = 2101180957936 = 000001E9382504F0) Failed, ctx = 000001E9380086A0, err = "error", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:04091068:rsa routines:INT_RSA_VERIFY:bad signature
+error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature
+"
+[Net An. Error    (2f58:1c74)]   (Sid: 27) SSL handshake with remote server Failed!
+[Net An. Error    (2f58:3a68)] SSL_connect(ssl_id = 2101180950736 = 000001E93824E8D0) Failed, ctx = 000001E9380086A0, err = "error", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:04091068:rsa routines:INT_RSA_VERIFY:bad signature
+error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature
+"
+[Net An. Error    (2f58:3a68)]   (Sid: 28) SSL handshake with remote server Failed!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58:1684)] Request Connection: Remote Server @ 74.125.200.188:5228   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (2f58:1684)] Address lookup for DESKTOP-ACG447F = 192.168.0.111
+[Network Analyzer (2f58: 484)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[API Trapper      (1f28:2f04)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (2f58:2668)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (2f58:2668)]   (Sid:  1) Connection Terminated (by Client)
